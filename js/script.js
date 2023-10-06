@@ -19,7 +19,10 @@ let colorePreferitoUtente = prompt('Gentil utente il tuo colore preferito?');
 console.log(colorePreferitoUtente);
 
 let password =
- `<p>
+ `
  La tua password è  ${nomeUtente}${cognomeUtente}${colorePreferitoUtente}${numero}
- </p>`  
+ `  
 console.log(password)
+
+const Pluto = document.getElementById('password')
+Pluto.innerHTML = password
